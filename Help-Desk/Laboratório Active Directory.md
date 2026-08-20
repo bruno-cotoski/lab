@@ -28,9 +28,9 @@ A estrutura foi criada para simular  um ambiente corporativo organizado por seto
 
 * **Política de Segurança:** Seleção da flag (**User must change password at next logon**) em conformidade com as diretrizes de privacidade e segurança da informação, garantindo que o suporte não tenha conhecimento da senha definitiva definida posteriormente pelo usuário.
 
-  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-User-1.png)
+  ![Provisionamento de Novo Colaborador](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-User-1.png)
 
-  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-User-2.png)
+  ![Provisionamento de Novo Colaborador](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-User-2.png)
 
   
 
@@ -41,7 +41,7 @@ A estrutura foi criada para simular  um ambiente corporativo organizado por seto
 
 * **Política de Segurança:** Seleção da flag (**User must change password at next logon**) em conformidade com as diretrizes de privacidade e segurança da informação, garantindo que o suporte não tenha conhecimento da senha definitiva definida posteriormente pelo usuário.
 
-  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Senha.png)
+  ![Reset de Senha e Desbloqueio](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Senha.png)
 
   
 
@@ -50,21 +50,21 @@ A estrutura foi criada para simular  um ambiente corporativo organizado por seto
 
 * **Ação:** Criação do grupo de segurança **GRP_IT_Access** aplicando a atribuição de permissões via funcionalidade ***Member Of***.
 
-  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Acesso-1.png)
+  ![Gestão de Acessos por Grupos de Segurança](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Acesso-1.png)
 
-  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Acesso-2.png)
+  ![Gestão de Acessos por Grupos de Segurança](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Acesso-2.png)
 
 ---
 
 ## 3. Comandos de Diagnóstico Utilizados via CMD
 * **gpupdate /force** - Força a atualização imediata das Diretivas de Grupo na máquina.
 
-  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-gpupdate-force.png)
+  ![gpupdate /force](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-gpupdate-force.png)
 
 * **whoami /groups** - Lista os grupos de segurança do usuário ativo no prompt.
 
-  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-whoami-groups.png)
+  ![whoami /groups](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-whoami-groups.png)
 
 * **net user <usuario> /domain** - Consulta rápida dos atributos de conta no domínio.
 
-![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-net-user-usuario-domain.png)
+![net user <usuario> /domain](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-net-user-usuario-domain.png)
