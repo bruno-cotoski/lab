@@ -15,7 +15,7 @@ Este repositório documenta a criação e administração de um ambiente de dom�
 ## 1. Estrutura de Unidades Organizacionais (OUs)
 A estrutura foi criada para simular  um ambiente corporativo organizado por setores como um escritório com computadores (Computers), grupos (Groups) e usuários (Users) como o TI (IT) e o RH (HR):
 
-![Estrutura do AD](./pictures\Active Directory Unidades Organizacionais.png)
+![Estrutura do AD](Help-Desk/pictures/Active Directory Unidades Organizacionais.png)
 
 ---
 
