@@ -15,7 +15,7 @@ Este repositório documenta a criação e administração de um ambiente de dom�
 ## 1. Estrutura de Unidades Organizacionais (OUs)
 A estrutura foi criada para simular  um ambiente corporativo organizado por setores como um escritório com computadores (Computers), grupos (Groups) e usuários (Users) como o TI (IT) e o RH (HR):
 
-![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Unidades-Organizacionais.png)
+![Estrutura de Unidades Organizacionais](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Unidades-Organizacionais.png)
 
 ---
 
@@ -28,9 +28,9 @@ A estrutura foi criada para simular  um ambiente corporativo organizado por seto
 
 * **Política de Segurança:** Seleção da flag (**User must change password at next logon**) em conformidade com as diretrizes de privacidade e segurança da informação, garantindo que o suporte não tenha conhecimento da senha definitiva definida posteriormente pelo usuário.
 
-  ![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory Usuário 1.png)
+  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-User-1.png)
 
-  ![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory Usuário 2.png)
+  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-User-2.png)
 
   
 
@@ -41,7 +41,7 @@ A estrutura foi criada para simular  um ambiente corporativo organizado por seto
 
 * **Política de Segurança:** Seleção da flag (**User must change password at next logon**) em conformidade com as diretrizes de privacidade e segurança da informação, garantindo que o suporte não tenha conhecimento da senha definitiva definida posteriormente pelo usuário.
 
-  ![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory Senha.png)
+  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Senha.png)
 
   
 
@@ -50,21 +50,21 @@ A estrutura foi criada para simular  um ambiente corporativo organizado por seto
 
 * **Ação:** Criação do grupo de segurança **GRP_IT_Access** aplicando a atribuição de permissões via funcionalidade ***Member Of***.
 
-  ![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory Gestão Acesso 1.png)
+  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Acesso-1.png)
 
-  ![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory Gestão Acesso 2.png)
+  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-Acesso-2.png)
 
 ---
 
 ## 3. Comandos de Diagnóstico Utilizados via CMD
 * **gpupdate /force** - Força a atualização imediata das Diretivas de Grupo na máquina.
 
-  ![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory CMD gpupdate force.png)
+  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-gpupdate-force.png)
 
 * **whoami /groups** - Lista os grupos de segurança do usuário ativo no prompt.
 
-  ![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory CMD  whoami groups.png)
+  ![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-whoami-groups.png)
 
 * **net user <usuario> /domain** - Consulta rápida dos atributos de conta no domínio.
 
-![Estrutura do AD](C:\Users\PC\Desktop\Portifólio Help Desk\pictures\Active Directory CMD net user usuario domain.png)
+![Estrutura do AD](https://github.com/bruno-cotoski/lab/blob/main/Help-Desk/pictures/Active-Directory-CMD-net-user-usuario-domain.png)
